@@ -22,13 +22,14 @@ const Hero = () => {
         </a>
 
         <h1 className="font-extrabold text-4xl lg:text-6xl tracking-tight md:-mb-4">
-          Ship your startup in days, not weeks
+          Become your own interior designer.
         </h1>
         <p className="text-lg opacity-80 leading-relaxed">
-          The NextJS boilerplate with all you need to build your SaaS, AI tool,
-          or any other web app. From idea to production in 5 minutes.
+          The Design Blueprint is all you need to start designing your home.
+          Professional designs, product lists and advice. Concept to reality in
+          days.
         </p>
-        <button className="btn btn-primary btn-wide">
+        <button className="btn btn-primary btn-wide rounded-lg">
           Get {config.appName}
         </button>
 
@@ -36,9 +37,9 @@ const Hero = () => {
       </div>
       <div className="lg:w-full">
         <Image
-          src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80"
-          alt="Product Demo"
-          className="w-full"
+          src="https://images.unsplash.com/photo-1542621334-a254cf47733d?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Interior design blueprint"
+          className="w-full rounded-lg"
           priority={true}
           width={500}
           height={500}

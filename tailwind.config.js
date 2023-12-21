@@ -1,3 +1,5 @@
+const { dracula } = require("react-syntax-highlighter/dist/esm/styles/hljs");
+
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -63,6 +65,6 @@ module.exports = {
     // You can add another theme among the list of 30+
     // Add "data-theme='theme_name" to any HTML tag to enable the 'theme_name' theme.
     // https://daisyui.com/
-    themes: ["light", "dark"],
+    themes: ["light", "dark", "black"],
   },
 };
