@@ -460,17 +460,18 @@ const FeaturesListicle = () => {
       <div className="max-w-3xl mx-auto">
         <div className="bg-base-100 max-md:px-8 max-w-3xl">
           <p className="text-accent font-medium text-sm font-mono mb-3">
-            const launch_time = &quot;Today&quot;;
+            Project start date = <s>in 2 months</s> &quot;Today&quot;
           </p>
           <h2 className="font-extrabold text-3xl lg:text-5xl tracking-tight mb-8">
             {/* 💡 COPY TIP: Remind visitors about the value of your product. Why do they need it? */}
-            Supercharge your app instantly, launch faster, make $
+            Skip the headaches, research and countless &quot;oh no&quot;
+            moments.
           </h2>
           <div className="text-base-content/80 leading-relaxed mb-8 lg:text-lg">
             {/* 💡 COPY TIP: Explain how your product delivers what you promise in the headline. */}
-            Login users, process payments and send emails at lightspeed. Spend
-            your time building your startup, not integrating APIs. ShipFast
-            provides you with the boilerplate code you need to launch, FAST.
+            Save your money, time and sanity. Start your renovation project
+            Today with professionaly made designs, made for your shopping lists,
+            guides on how to choose your contractor, interior design and more.
           </div>
         </div>
       </div>
