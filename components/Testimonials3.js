@@ -81,12 +81,16 @@ const Testimonials3 = () => {
         <div className="flex flex-col text-center w-full mb-20">
           <div className="mb-8">
             <h2 className="sm:text-5xl text-4xl font-extrabold text-base-content">
-              212 makers are already shipping faster!
+              312 people{" "}
+              <span className="bg-neutral text-neutral-content px-2 md:px-4 ml-1 md:ml-1.5 leading-relaxed whitespace-nowrap rounded">
+                like you
+              </span>{" "}
+              are using the Blueprint!
             </h2>
           </div>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-base-content/80">
             Don&apos;t take our word for it. Here&apos;s what they have to say
-            about ShipFast.
+            about inHous.
           </p>
         </div>
 
@@ -95,7 +99,10 @@ const Testimonials3 = () => {
           className="flex flex-col items-center lg:flex-row lg:items-stretch gap-6 lg:gap-8"
         >
           {[...Array(3)].map((e, i) => (
-            <Testimonial key={i} i={i} />
+            <Testimonial
+              key={i}
+              i={i}
+            />
           ))}
         </ul>
       </div>
