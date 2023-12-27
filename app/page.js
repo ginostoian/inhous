@@ -11,6 +11,7 @@ import FAQ from "@/components/FAQ";
 import Testimonials11 from "@/components/Testimonials11";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import Testimonial from "@/components/Testimonials1";
 
 export default function Page() {
   return (
@@ -22,6 +23,7 @@ export default function Page() {
         <FeaturesAccordion />
         <Testimonials3 />
         <Pricing />
+        <Testimonial />
         <FAQ />
         <Testimonials11 />
         <CTA />
