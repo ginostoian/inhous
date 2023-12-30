@@ -21,23 +21,23 @@ const config = {
         // REQUIRED — we use this to find the plan in the webhook (for instance if you want to update the user's credits based on the plan)
         priceId:
           process.env.NODE_ENV === "development"
-            ? "price_1Niyy5AxyNprDp7iZIqEyD2h"
+            ? "price_1OT3BnKKSxiwSOlTtlZzW1T5"
             : "price_456",
         //  REQUIRED - Name of the plan, displayed on the pricing page
         name: "Starter",
         // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
-        description: "Perfect for small projects",
+        description: "You just want to simplify the design process",
         // The price you want to display, the one user will be charged on Stripe.
-        price: 79,
+        price: 99,
         // If you have an anchor price (i.e. $29) that you want to display crossed out, put it here. Otherwise, leave it empty
-        priceAnchor: 99,
+        priceAnchor: 159,
         features: [
           {
-            name: "NextJS boilerplate",
+            name: "Design Blueprint",
           },
-          { name: "User oauth" },
-          { name: "Database" },
-          { name: "Emails" },
+          { name: "High quality 3D renders" },
+          { name: "Shopping lists" },
+          { name: "Room measurement guide" },
         ],
       },
       {
@@ -45,21 +45,22 @@ const config = {
         isFeatured: true,
         priceId:
           process.env.NODE_ENV === "development"
-            ? "price_1O5KtcAxyNprDp7iftKnrrpw"
+            ? "price_1OT3D0KKSxiwSOlTkYUdaqgA"
             : "price_456",
         name: "Advanced",
-        description: "You need more power",
-        price: 99,
-        priceAnchor: 149,
+        description: "You want to make sure everything goes right",
+        price: 129,
+        priceAnchor: 209,
         features: [
           {
-            name: "NextJS boilerplate",
+            name: "Design Blueprint",
           },
-          { name: "User oauth" },
-          { name: "Database" },
-          { name: "Emails" },
-          { name: "1 year of updates" },
-          { name: "24/7 support" },
+          { name: "High quality 3D renders" },
+          { name: "Shopping lists" },
+          { name: "Room measurement guide" },
+          { name: "Choosing a contractor guide" },
+          { name: "Priority support" },
+          { name: "+ other guides and articles" },
         ],
       },
     ],
