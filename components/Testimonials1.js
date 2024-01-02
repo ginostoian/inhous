@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import userImage from "@/public/olivia-testimonial.webp";
+
 // A beautiful single testimonial with a user name and and company logo logo
 const Testimonial = () => {
   return (
@@ -19,7 +21,8 @@ const Testimonial = () => {
                 className="rounded-lg max-w-[320px] md:max-w-[280px] lg:max-w-[320px] object-center border-2 border-white/10 shadow-md"
                 // Ideally, load from a statically generated image for better SEO performance (import userImage from "@/public/userImage.png")
                 // If you're using a static image, add placeholder="blur"
-                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2488&q=80"
+                src={userImage}
+                placeholder="blur"
                 alt="A testimonial from a happy customer"
               />
             </div>
