@@ -12,6 +12,7 @@ import Testimonials11 from "@/components/Testimonials11";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import Testimonial from "@/components/Testimonials1";
+import Problem from "@/components/Problem";
 
 export default function Page() {
   return (
@@ -19,6 +20,7 @@ export default function Page() {
       <Header />
       <main>
         <Hero />
+        <Problem />
         <FeaturesListicle />
         <FeaturesAccordion />
         <Testimonials3 />

@@ -85,20 +85,20 @@ export const renderSchemaTags = () => {
           url: `https://${config.domainName}/`,
           author: {
             "@type": "Person",
-            name: "Marc Lou",
+            name: "Gino Stoian",
           },
-          datePublished: "2023-08-01",
+          datePublished: "2023-12-11",
           applicationCategory: "EducationalApplication",
           aggregateRating: {
             "@type": "AggregateRating",
             ratingValue: "4.8",
-            ratingCount: "12",
+            ratingCount: "48",
           },
           offers: [
             {
               "@type": "Offer",
-              price: "9.00",
-              priceCurrency: "USD",
+              price: "99.00",
+              priceCurrency: "GBP",
             },
           ],
         }),

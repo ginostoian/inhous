@@ -139,7 +139,7 @@ const Header = () => {
 
         {/* CTA on large screens */}
         <div className="hidden lg:flex lg:justify-end lg:flex-1">{cta}</div>
-        {/* Toggler for theme on mobile */}
+        {/* Toggler for theme large screens */}
         <label className="swap swap-rotate ml-2 hidden lg:flex ">
           {/* this hidden checkbox controls the state */}
           <input

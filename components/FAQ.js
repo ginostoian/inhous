@@ -53,11 +53,14 @@ const faqList = [
   {
     question: "Can I get a refund?",
     answer: (
-      <p>
-        Yes! If you&apos;re not happy with the Blueprint you can request a
-        refund within 7 days of your purchase. Reach out to us by email. The
-        only thing we ask of you is to let us know why you&apos;re unhappy.
-      </p>
+      <div className="space-y-2 leading-relaxed">
+        <p>
+          Customer satisfaction is our goal, so YES! If you&apos;re not happy
+          with the Blueprint you can request a refund within 7 days of your
+          purchase. Reach out to us by email. The only thing we ask of you is to
+          let us know why you&apos;re unhappy.
+        </p>
+      </div>
     ),
   },
   {
