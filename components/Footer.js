@@ -1,7 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
+
 import config from "@/config";
-import logo from "@/app/icon.png";
+import logo from "@/app/icon.svg";
 
 // Add the Footer to the bottom of your landing page and more.
 // The support link is connected to the config.js file. If there's no config.mailgun.supportEmail, the link won't be displayed.
@@ -54,13 +55,23 @@ const Footer = () => {
                     Support
                   </a>
                 )}
-                <Link href="/#pricing" className="link link-hover">
+                <Link
+                  href="/#pricing"
+                  className="link link-hover"
+                >
                   Pricing
                 </Link>
-                <Link href="/blog" className="link link-hover">
+                <Link
+                  href="/blog"
+                  className="link link-hover"
+                >
                   Blog
                 </Link>
-                <a href="/#" target="_blank" className="link link-hover">
+                <a
+                  href="/#"
+                  target="_blank"
+                  className="link link-hover"
+                >
                   Affiliates
                 </a>
               </div>
@@ -72,10 +83,16 @@ const Footer = () => {
               </div>
 
               <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
-                <Link href="/tos" className="link link-hover">
+                <Link
+                  href="/tos"
+                  className="link link-hover"
+                >
                   Terms of services
                 </Link>
-                <Link href="/privacy-policy" className="link link-hover">
+                <Link
+                  href="/privacy-policy"
+                  className="link link-hover"
+                >
                   Privacy policy
                 </Link>
               </div>
