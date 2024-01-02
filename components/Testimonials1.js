@@ -26,18 +26,19 @@ const Testimonial = () => {
 
             <div>
               <blockquote className="text-xl font-medium leading-8 text-base-content sm:text-2xl sm:leading-10">
-                I got your boilerplate and having the payments setup with Stripe
-                + user auth is a blessing. This will save me like a week of work
-                for each new side project I spin up. I appreciate that is well
-                documented, as well. 100% worth it!
+                I got your blueprint after my friend recommended it to me and I
+                loved the 3D renders. I picked one that just screamed
+                &apos;me&apos;, calculated how many tiles I need, and went
+                through the shopping list to get everything. The tips on how to
+                choose a builder were very helpful. 100% recommend this.
               </blockquote>
               <figcaption className="mt-10 flex items-center justify-start gap-5">
                 <div className="text-base">
                   <div className="font-semibold text-base-content mb-0.5">
-                    Amanda Lou
+                    Olivia Harris
                   </div>
                   <div className="text-base-content/60">
-                    Indie Maker &amp; Developer
+                    Professional Photographer
                   </div>
                 </div>
 
