@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import ButtonSignin from "./ButtonSignin";
-import logo from "@/app/icon.png";
+import logo from "@/app/icon.svg";
 import config from "@/config";
 
 const links = [
@@ -66,7 +66,7 @@ const Header = () => {
               src={logo}
               alt={`${config.appName} logo`}
               className="w-8"
-              placeholder="blur"
+              // placeholder="blur"
               priority={true}
               width={32}
               height={32}
@@ -181,7 +181,7 @@ const Header = () => {
                 src={logo}
                 alt={`${config.appName} logo`}
                 className="w-8"
-                placeholder="blur"
+                // placeholder="blur"
                 priority={true}
                 width={32}
                 height={32}
