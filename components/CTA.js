@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ButtonCheckout from "./ButtonCheckout";
 
 const CTA = () => {
   return (
@@ -13,14 +14,16 @@ const CTA = () => {
       <div className="relative hero-content text-center text-neutral-content p-8">
         <div className="flex flex-col items-center max-w-xl p-8 md:p-0">
           <h2 className="font-bold text-3xl md:text-5xl tracking-tight mb-8 md:mb-12">
-            Your home designed professionaly
+            Your bathroom designed professionaly
           </h2>
           <p className="text-lg opacity-80 mb-12 md:mb-16">
             Don&apos;t waste a fortune and a lot of your time. Save yourself the
             headache...
           </p>
 
-          <button className="btn btn-primary btn-wide">Get inHous</button>
+          <div className="w-64">
+            <ButtonCheckout />
+          </div>
         </div>
       </div>
     </section>
