@@ -22,7 +22,7 @@ const config = {
         priceId:
           process.env.NODE_ENV === "development"
             ? "price_1OUbmpKKSxiwSOlT2RFr5Gj9"
-            : "price_456",
+            : "price_1OUbmpKKSxiwSOlT2RFr5Gj9",
         //  REQUIRED - Name of the plan, displayed on the pricing page
         name: "Starter",
         // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
@@ -46,7 +46,7 @@ const config = {
         priceId:
           process.env.NODE_ENV === "development"
             ? "price_1OUbmgKKSxiwSOlTjHqPoZh9"
-            : "price_456",
+            : "price_1OUbmgKKSxiwSOlTjHqPoZh9",
         name: "Advanced",
         description: "You want to make sure everything goes right",
         price: 129,
