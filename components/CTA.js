@@ -1,7 +1,11 @@
 import Image from "next/image";
+
+import config from "@/config";
 import ButtonCheckout from "./ButtonCheckout";
 
 const CTA = () => {
+  const priceId = config.stripe.plans[1].priceId;
+
   return (
     <section className="relative hero overflow-hidden min-h-screen">
       <Image
@@ -22,7 +26,7 @@ const CTA = () => {
           </p>
 
           <div className="w-64">
-            <ButtonCheckout />
+            <ButtonCheckout priceId={priceId} />
           </div>
         </div>
       </div>
