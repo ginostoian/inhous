@@ -20,7 +20,11 @@ export const metadata = getSEOTags();
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-theme={config.colors.theme} className={font.className}>
+    <html
+      lang="en"
+      data-theme={config.colors.theme}
+      className={font.className}
+    >
       {config.domainName && (
         <head>
           <PlausibleProvider domain={config.domainName} />
